@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/horoscopeFragment"
+        android:title="@string/horoscope_text"
+        android:icon="@drawable/ic_horoscope"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/palmistryFragment"
+        android:title="@string/palmistry_text"
+        android:icon="@drawable/ic_cards"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/luckFragment"
+        android:title="@string/luck_text"
+        android:icon="@drawable/ic_hand"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
