@@ -1,0 +1,38 @@
+Ejercicio 1: Generar una calculadora basica dada las operaciones de suma, resta y multiplicacion para 2 numeros. Sobrecargar dos metodos de al menos 1 operacion
+
+   ALGORITMO CalculadorBasico
+   1) Inicio
+   2)	 Metodo principal()
+   3)    Definicion
+		num1, num2, respt : d(-n, n) 
+	   Leer (num1, num2)
+	   Escribir sumarNumeros(num1, num2)
+	
+
+	
+	Fin Metodo principal
+	
+	Funcion sumarNumeros( num1 d(-n, n), num2 d(-n,n) ) : d
+        Definicion
+		respt : d(-n, n)
+	  respt = num1 + num2
+        devolver respt
+	Fin Funcion sumarNumeros
+
+	Funcion sumarNumeros( num1 i(-n, n), num2 i(-n,n) ) : i
+        Definicion
+		respt : d(-n, n)
+	  respt = num1 + num2
+        devolver respt
+	Fin Funcion restarNumeros
+
+	Funcion multiplicarNumeros( num1 d(-n, n), num2 d(-n,n) )
+        Definicion
+		respt : d(-n, n)
+	  respt = num1 * num2
+        devolver respt
+	Fin Funcion multiplicarNumeros
+
+
+Fin algoritmo CalculadorBasico
+	
